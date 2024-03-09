@@ -1,0 +1,22 @@
+.background {
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: none;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@keyframes FadeIn {
+    from {opacity: 0.3;}
+    to {opacity: 1;}
+}
+
+.FadeIn {
+    animation: FadeIn 700ms ease-in-out;
+}
